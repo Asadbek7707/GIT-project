@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+body {
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 211px;
+  padding: 48px;
+  background: #e28625;
+}
+.cardest {
+  background: #006971;
+}
+.crd {
+  border-radius: 8px 0px 0px 8px;
+}
+.card-last {
+  border-radius: 0px 8px 8px 0px;
+  background: #004140;
+}
+.sedans {
+  font-weight: 700;
+  font-size: 40px;
+  color: #f2f2f2;
+}
+.fuel {
+  font-family: "Lexend Deca", sans-serif;
+  width: 212px;
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+}
+.btn {
+  width: 146px;
+  padding: 14px 0;
+  border-radius: 30px;
+  border: none;
+  color: #e28625;
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+}
+.btn-two {
+  width: 146px;
+  padding: 14px 0;
+  border-radius: 30px;
+  border: none;
+  color: #006971;
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+}
+.btn-three {
+  width: 146px;
+  padding: 14px 0;
+  border-radius: 30px;
+  border: none;
+  color: #006971;
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+}
+.three {
+  color: #004140;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #e28625;
+  border: 2px solid white;
+  padding: 12px 0;
+  color: white;
+}
+.btn-two:hover {
+  background: #006971;
+  border: 2px solid white;
+  padding: 12px 0;
+  color: white;
+}
+.btn-three:hover {
+  background: #004140;
+  border: 2px solid white;
+  padding: 12px 0;
+  color: white;
+}
